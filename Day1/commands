@@ -1,0 +1,15 @@
+COMMANDS
+pwd - print working directory
+mkdir - make a  new directory
+cd - change working  directory 
+touch - create a new empty file
+ls - list contents of a directory
+cd .. - go back to certain directory
+ls -1 - more information 
+-a - hidden information
+cd ../ - go backwards 
+cd../../ - go backwards twice 
+mv- move directory
+rm - remove directory
+clear- clear the screen
+cd ~ - home directory
