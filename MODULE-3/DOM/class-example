@@ -1,0 +1,38 @@
+// const heading = document.getElementById('heading');
+// const heading = document.querySelector('#heading');
+// const listItems = document.getElementsByTagName('li');
+// const listItems = document.querySelectorAll('.nav-link');
+
+// const headingText = heading.innerText;
+// const listItemsLength = listItems.length;
+
+// console.log(listItemsLength);
+
+// heading.innerText = 'Links';
+// heading.style.backgroundColor = 'lightblue';
+
+const root = document.querySelector('#root');
+
+const headerElement = document.createElement('h1');
+const listElement = document.createElement('ul');
+
+const listItemOne = document.createElement('li');
+const listItemTwo = document.createElement('li');
+const listItemThree = document.createElement('li');
+
+headerElement.innerText = 'Navigation';
+listItemOne.innerText = 'Home';
+listItemTwo.innerText = 'Store';
+listItemThree.innerText = 'Contact';
+
+headerElement.id = 'heading';
+listElement.id = 'nav-list';
+
+root.append(headerElement);
+root.append(listElement);
+
+listElement.append(listItemOne, listItemTwo, listItemThree);
+
+listElement.childNodes.forEach((item) => {
+  item.className = 'nav-link';
+});

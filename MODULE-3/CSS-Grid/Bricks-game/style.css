@@ -1,0 +1,17 @@
+.container {
+    justify-content:  flex-end;
+    display: flex;
+    background-color: black;
+    
+
+}
+
+.score-color{
+    color: green;
+    text-align: right;
+    padding-right: 10%;
+}
+
+body{
+    background-color: black;
+}

@@ -1,0 +1,35 @@
+// Let's make a function that lets us know when we can go to the movies with our friend
+// Create an object called myFriendsSchedule that has our friend's schedule; the key/value pair should be day_of_week and a true/false value i.e. { sunday: true }
+function myFriendsSchedule(){
+	const schedule ={
+		monday:"true"
+		tuesday:"false"
+	}
+	const myMoneySchedule={
+		monday:"10"
+		tuesday:"5"
+	}
+}
+
+// Create an object called myMoneySchedule that has how much money I have during the week the key/value pair should be day_of_week and a number value i.e. { sunday: 10 }
+// Create a function called canWeGoToTheMovies with a parameter that takes a string value; the value will be the day of the week
+function canWeGoToTheMovies(schedule){
+	if(myFriendsSchedule,myMoneySchedule){
+       
+	}
+}
+// create an if statement for myFriendsSchedule and myMoneySchedule
+// Using bracket notation look up the day of the week for both objects, find out if my friend is free AND I have the money
+??????????????????????????????????????????????
+// If they have the time AND I have the money then we can go!
+// ex. "On " + theDateWeWantToGo + "? Yes, lets go to the movies!!"
+// Create an if/else to check if my friend has the time OR if I have the money
+// If they have the time OR I have the money then we can go!
+// ex. "On " + theDateWeWantToGo + "? One of us can go to the movies"
+// Create an else
+// if NEITHER they have the time AND I don't have the money then we can not go :(
+// ex: "On " + theDateWeWantToGo + "? We can't go to the movies"
+// exit the function
+// Check 3 days of the week: each day of the week should return a "yes we can go", a "one of us can go", and a "no we can not go"
+
+ 

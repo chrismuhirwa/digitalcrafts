@@ -1,0 +1,19 @@
+img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    animation-name:Myimg ;
+    animation-duration: 3s;
+    animation-delay: 2s;
+
+}
+
+@keyframes Myimg {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 1000px;;
+    }
+}

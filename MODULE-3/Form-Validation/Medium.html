@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium</title>
+    <link rel="stylesheet" href="Medium.css">
+</head>
+
+<body>
+    <form style="text-align:center">
+        <h1 style="margin:auto;  width:300px" ;>Sign Up Form</h1>
+        <br />
+        <fieldset style="margin:auto;  width:300px" ;>
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text" required minlength="5" />
+        </fieldset>
+        <br />
+        <fieldset style="margin:auto;  width:300px">
+            <label for="password">Password:</label>
+            <input id="password" password="password" type="password" required minlength="6" maxlength="15" />
+
+        </fieldset>
+        <br />
+        <fieldset style="margin:auto;  width:300px">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required />
+
+        </fieldset>
+        <br />
+        <fieldset style="margin:auto;  width:300px">
+            <label for="about me">About Me:</label>
+            <input id="aboutme" name="about me" type="text" maxlength="250" />
+
+        </fieldset style="margin:auto;  width:300px">
+        <br />
+        <fieldset style="margin:auto;  width:300px">
+            <legend>Robot Check</legend>
+            <label for="robot-check">Please Type:<strong>I am a human</strong></label>
+            <input id="robot-check" pattern="I am a human" type="text" />
+
+        </fieldset style="margin:auto;  width:300px">
+        <br />
+        <fieldset class="btn">
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

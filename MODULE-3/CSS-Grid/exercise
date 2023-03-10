@@ -1,0 +1,21 @@
+// Given an integer, reverse the order of the digits.
+function reverse (integer) {
+    const stringFromInteger = integer.toString();
+
+    const reversedStringFromInterger = stringFromInteger.split("").reverse().join("")
+
+    
+
+//     return reversedInterger ="I am the reversed interger";
+}
+
+// const isPalindrome = (interger) => {
+//     const stringArray = string.split("");
+
+//     const reversedArray = stringArray.reverse();
+
+//     console.log('reversedArray: ', reversedArray);
+
+//     const reversedString = reversedArray.join('');
+
+//     console.log('reversedString: ', reversedString);

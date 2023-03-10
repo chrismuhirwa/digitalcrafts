@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In-Class Exercise: Space Wars and Laser Swords</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <label for="exampleDataList" class="form-label">Vehicle Search</label>
+    <input class="form-control" list="datalistOptions" id="vehicleform" placeholder="Type to search...">
+    <datalist id="datalistOptions">
+        <option value="San Francisco">
+        <option value="New York">
+    </datalist>
+    <br>
+    <button type="button" class="btn btn-primary" id="vehiclebutton">Search</button>
+    </br>
+    
+    <hr>
+        <label for="exampleDataList" class="form-label">Species Search</label>
+        <input class="form-control" list="datalistOptions" id="speciesform" placeholder="Type to search...">
+        <datalist id="datalistOptions">
+            <option value="San Francisco">
+            <option value="New York">
+        </datalist>
+        <br>
+        <button type="button" class="btn btn-primary" id="speciesbutton">Search</button>
+        </br>
+    </hr>
+    <div id="vehiclelist"></div>
+<script src="script.js"></script>
+</body>
+
+</html>

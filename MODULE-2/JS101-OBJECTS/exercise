@@ -1,0 +1,18 @@
+// Follow the instructions below. As you go through the process, console log each variable to see it change!	
+// 1. Create a new Object representing YOU. Include they following keys: fullName, age, faveColor, and likesPizza.
+let person = {
+    fullName= "chris muhirwa"
+    age="25"
+    faveColor="red"
+    likesPizza="true"
+}
+
+// HINT: likesPizza accepts a boolean.	
+// 2. Create a new variable and set it equal to the faveColor property.	???
+faveColor = "blue"
+// 3. Update your fullName to only be your last name.	
+fullName = "muhirwa"
+// 4. Delete the likesPizza property.	
+// 5. Add a new key that represents your fave food and mirrors the likesPizza. The value will represent the fact that you like it :)
+??????	
+// For example, likesCookies.
