@@ -17,7 +17,10 @@ const data = [
   ];
   
   const makeHtmlString = (arr) => {
-    
+    const result = arr.map((person) => {
+      return `<li>${person.name}</li>`;
+    }).join("");
+     return `<ul>${result}</ul>`;
   };
   
   console.log(makeHtmlString(data));
