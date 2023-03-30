@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEOs List</title>
+</head>
+<body>
+    <h1>List of CEOs</h1>
+    <ul>
+        ${db.map(ceo => `
+            <li>${db.name}</li>
+        `).join('')}
+    </ul>
+</body>
+</html>
